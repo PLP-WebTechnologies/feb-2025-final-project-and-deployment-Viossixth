@@ -10,7 +10,6 @@ nav,
 display:flex;
 }
 /*FIX*/
-
 /* Default styles */
 .desktop-nav {
     display: flex;
@@ -131,20 +130,16 @@ a:hover{
     transition: all 0.3s ease-in-out;
 }
 
-
-
-.menu-links {
+.menu-links{
     position: absolute;
-    top: 60px; /* adjust based on your nav height */
-    left: 0;
-    width: 100%;
-    background-color: transparent;
-    z-index: 1000;
-    display: none; /* toggled with JavaScript */
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem 0;
-  }
+    top: 100%;
+    right: 0;
+    background-color: antiquewhite;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
 
 .menu-links a{
     display: block;

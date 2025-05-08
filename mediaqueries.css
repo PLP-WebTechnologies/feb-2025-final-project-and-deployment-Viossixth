@@ -1,0 +1,165 @@
+/*Home HTML */
+/* ========================
+   Small Mobile Devices (max-width: 480px)
+=========================== */
+@media (max-width: 480px) {
+    .desktop-nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    }
+  
+    .nav-title {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      padding: 0;
+    }
+  
+    .nav-links li a {
+      font-size: 0.9rem;
+      padding: 0.5rem;
+    }
+  
+    .home-content {
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    .nostra-logo img {
+      width: 200px;
+    }
+  
+    .home-title {
+      font-size: 1.4rem;
+    }
+  
+    .home-paragraph {
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+  
+    .gallery-color-container {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      padding: 0.5rem;
+    }
+  
+    .gallery-img {
+      border-radius: 8px;
+    }
+  
+    .footer-title h1 {
+      font-size: 1.4rem;
+    }
+  
+    #socials-container {
+      gap: 1rem;
+    }
+  
+    .icon {
+      width: 25px;
+      height: 25px;
+    }
+  
+    #Footer-disclaimer {
+      font-size: 0.75rem;
+      padding: 0 1rem;
+    }
+  }
+
+/* ========================
+   Tablet (min-width: 600px)
+=========================== */
+@media (min-width: 600px) {
+    .nav-links {
+      flex-direction: row;
+      justify-content: center;
+    }
+  
+    .gallery-color-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .home-content {
+      text-align: center;
+      padding: 2rem;
+    }
+  }
+
+  
+  /* ========================
+     Desktop (min-width: 900px)
+  =========================== */
+  @media (min-width: 900px) {
+    .desktop-nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #f8f8f8;
+    }
+  
+    .nav-title {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  
+    .nav-links {
+      gap: 2rem;
+    }
+  
+    .gallery-color-container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  
+    .home-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 4rem;
+    }
+  
+    .nostra-logo img {
+      max-width: 300px;
+    }
+  
+    .home-about {
+      max-width: 600px;
+      padding: 1rem;
+    }
+  
+    .home-title {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+  
+    .home-paragraph {
+      font-size: 1.2rem;
+      line-height: 1.6;
+    }
+  
+    footer {
+      padding: 2rem;
+      text-align: center;
+    }
+  
+    #socials-container {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin: 1rem 0;
+    }
+  
+    .icon {
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+    }
+  }

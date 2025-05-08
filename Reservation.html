@@ -14,17 +14,36 @@
             Nostra
         </div>
         <div>
-            <ul id class="nav-links">
+            <ul id="nav-links" class="nav-links">
                 <li><a href="Home.html">Home</a></li>
                 <li><a href="Home.html#Gallery">Gallery</a></li>
                 <li><a href="About.html">About</a></li>
                 <li><a href="Menu.html">Menu</a></li>
                 <li><a href="Reservation.html">Reservation</a></li>
-                <li><a href="Contact.html#Join-Us">Join our Member Club</a></li>
+                <li><a href="Contact.html#Join-Us">Join our Mailist</a></li>
                 <li><a href="Contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
+    <nav id="hamburger-nav">
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <ul>
+                    <li><a href="Home.html" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="#Gallery" onclick="toggleMenu()">Gallery</a></li>
+                    <li><a href="About.html" onclick="toggleMenu()">About</a></li>
+                    <li><a href="Menu.html" onclick="toggleMenu()">Menu</a></li>    
+                    <li><a href="Contact.html#Join-Us" onclick="toggleMenu()">Join our Mailist</a></li>    
+                    <li><a href="Contact.html" onclick="toggleMenu()">Contact</a></li>    
+                </ul>
+            </div>
+        </div> 
+</nav>
 
     <section id="Reservation">  
         <div class="reservation-container">
@@ -56,35 +75,32 @@
         </div>   
     </section>
 
-    
+    <footer>
 
-</body>
-
-<footer>
-
-    <div class="footer-title">
-        <h1>Nostra</h1>
-    </div>
-
-    <div id="socials-container">
-        
-        <img  src="./Assets/Instagram.png" alt="Instagrm Profile"
-        class="icon"
-        onclick="location.href='https://Instagram.com/'"
-        />
-        <img src="./Assets/X.jpg" alt="Twitter Profile"
-        class="icon"
-        onclick="location.href='https://twitter.com/'"
-        />
-        <img  src="./Assets/Pinterest.png" alt="Pinterest Profile"
-        class="icon"
-        onclick="location.href='https://Pinterest.com/'"
-        />
+        <div class="footer-title">
+            <h1>Nostra</h1>
         </div>
-
-    <div id="Footer-disclaimer">
-        <p> &#169; Copyright 2025 | NOSTRA (Pty) Ltd | All Rights Reserved | Terms and conditions of use | Privacy and Data Policy | Website developed by Viossixth</p>
-    </div>
-
-</footer>
+    
+        <div id="socials-container">
+            
+            <img  src="./Assets/Instagram.png" alt="Instagrm Profile"
+            class="icon"
+            onclick="location.href='https://Instagram.com/'"
+            />
+            <img src="./Assets/X.jpg" alt="Twitter Profile"
+            class="icon"
+            onclick="location.href='https://twitter.com/'"
+            />
+            <img  src="./Assets/Pinterest.png" alt="Pinterest Profile"
+            class="icon"
+            onclick="location.href='https://Pinterest.com/'"
+            />
+            </div>
+    
+        <div id="Footer-disclaimer">
+            <p> &#169; Copyright 2025 | NOSTRA (Pty) Ltd | All Rights Reserved | Terms and conditions of use | Privacy and Data Policy | Website developed by Viossixth</p>
+        </div>
+    
+    </footer>
+</body>
 </html>
